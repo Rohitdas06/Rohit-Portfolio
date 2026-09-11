@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rohit's Developer Portfolio 🚀
 
-## Getting Started
+A modern, responsive personal portfolio built with Next.js (App Router), TypeScript, and Tailwind CSS. Designed to showcase my engineering projects, technical skill set, and experience.
 
-First, run the development server:
+🔗 Live Site: https://www.rohitcodes.co.in
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Framework: Next.js (App Router & Turbopack)
+- Language: TypeScript
+- Styling: Tailwind CSS / PostCSS
+- Icons: Lucide React
+- Deployment & Hosting: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Repository Structure
 
-To learn more about Next.js, take a look at the following resources:
+OGPortfolio/
+├── portfolio/             # Next.js application root
+│   ├── app/               # Next.js App Router (pages & layouts)
+│   ├── components/        # Reusable UI components
+│   ├── data/              # Static content, project details, bio
+│   ├── public/            # Static assets, images, resume.pdf
+│   ├── package.json       # Project dependencies & scripts
+│   ├── tsconfig.json      # TypeScript configuration
+│   └── next.config.ts     # Next.js configuration
+└── README.md              # Repository documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started Locally
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ensure you have Node.js (v18.17+ or v20+) and npm installed:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+node -v
+npm -v
+
+### Installation & Setup
+
+1. Clone the repository:
+   git clone https://github.com/Rohitdas06/OGPortfolio.git
+   cd OGPortfolio/portfolio
+
+2. Install dependencies:
+   npm install
+
+3. Run the local development server:
+   npm run dev
+
+4. Open http://localhost:3000 in your browser to view the application.
+
+---
+
+## 📜 Available Scripts
+
+Inside the portfolio/ directory, you can run:
+
+- npm run dev: Starts the local development server with Turbopack
+- npm run build: Builds the optimized production build
+- npm run start: Runs the built production server locally
+- npm run lint: Runs ESLint to check for code issues
+
+---
+
+## 🌐 Deployment Note
+
+This project is deployed on Vercel. Because the Next.js application resides inside a subfolder, the Root Directory in Vercel project settings is explicitly set to:
+
+portfolio
+
+---
+
+## 📬 Contact & Connect
+
+- Portfolio: https://www.rohitcodes.co.in
+- GitHub: https://github.com/Rohitdas06
