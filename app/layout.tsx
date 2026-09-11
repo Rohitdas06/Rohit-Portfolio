@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Software Engineer",
+  title: "Rohit's-Portfolio | Software Engineer",
   description: "Personal developer portfolio showcasing full-stack projects and technical skills.",
 };
 
